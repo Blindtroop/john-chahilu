@@ -21,6 +21,11 @@
 
 @font-face {
     font-family:Lato ;
+    src: url(/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family:Lato2 ;
     src: url(/Lato-Regular.ttf);
 }
 
@@ -41,7 +46,7 @@ body{
     align-items: center;
     position: absolute;
     width: 539px;
-    height: 160%;
+    height: 180%;
     left: 664px;
     top: 2px;
     background: #FFFFFF;
@@ -60,7 +65,7 @@ body{
     position: relative;
     width: 100%;
     height: 100%;
-    right:10%
+    right:12%
 }
 
 .section-image img{
@@ -70,29 +75,30 @@ body{
 
 .section-head{
     position: absolute;
-    top: 50%;
+    top: 44%;
     left: 18%;
     width: 70%;
-    font-family: myFont;
-    font-weight:400;
+    font-family: Lato;
+    font-weight: 500;
+    font-style: normal;
     font-size: 28px;
     line-height: 48px;
     text-align: center;
-    color: #1F3751;
+    color: #511F20;
     }
 
     .section-name{
     position: absolute;
-    top: 60%;
+    top: 53%;
     left: 18%;
-    width: 70%;
-    font-family: American;
+    width: 75%;
+    font-family: infinit;
     font-style: normal;
-    font-weight: 500px;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 34px;
     line-height: 48px;
     text-align: center;
-    color: #1F3751;
+    color: #511F20;
     animation: bounce 1s ease-in-out;
     }
       
@@ -111,42 +117,43 @@ body{
 
     .section-info{
         position: absolute;
-        top: 69%;
+        top: 61%;
         left: 18%;
         width: 70%;
         font-family: Lato;
         font-style: normal;
-        font-weight: 500px;
+        font-weight: 700;
         font-size: 25px;
         text-align: center;
-        color: #1F3751;
+        color: #511F20;
     }
 
     .section-info p{
         text-align: center;
     }
 
-    .section-info h4{
-        font-size: 20px;
-        font-weight: 600px;
-        margin-top: 15px;
+    .section-info h2{
+        font-size: 30px;
+        font-family: Lato2;
+        font-weight: 600;
+        margin-top: 19px;
     }
 
     .hero-btn{
         position: absolute;
         z-index: 4;
-        top: 100%;
+        top: 97%;
         left: 10%;
         width: 80%;
         display: flex;
         height: 50px;
-        margin-top: 100px;
+        margin-top: 90px;
         justify-content: center;
         align-items: center;
-        background: #569AC1;
+        background: #511F20;
         box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
         border-radius: 14px;
-        color:#1F3751;
+        color:#FFFFFF;
         font-family: Lato;
         text-decoration: none;
         font-weight: 700;
@@ -161,7 +168,7 @@ body{
 
     .section-flower img{
         position: absolute;
-        top:81%;
+        top:85%;
         left: 13%;
         width: 90%;
         transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out
@@ -194,7 +201,7 @@ body{
         .container {
             position: absolute;
             width: 100%;
-            height: 100%;
+            height: 150%;
             left: 0px;
             right: 0px;
             top: 0px;
@@ -229,31 +236,38 @@ body{
         }
         .section-head{
             position: absolute;
-            top: 33%;
+            top: 35%;
             left: 18%;
             width: 70%;
-            font-family: myFont;
+            font-family: Lato;
             font-style: normal;
             font-weight: normal;
-            font-size: 16px;
-            line-height: 48px;
+            font-size: 15px;
+            line-height: 30px;
             text-align: center;
-            color: #1F3751;
+            color: #511F20;
         }
         .section-name{
-            top: 45%;
+            top: 47%;
             left: 10%;
             width: 80%;
-            font-size: 20px;
+            font-size: 14px;
             line-height: 30px;
         }
         .section-info{
-            top: 60%;
+            top: 57%;
             left: 10%;
             width: 80%;
-            font-size: 20px;
-            line-height: 30px;
+            font-size: 14px;
+            line-height: 20px;
         }
+
+        .section-info h2{
+            font-size: 14px;
+            font-weight: 600px;
+            margin-top: 15px;
+        }
+
         .section-flower img{
             top: 87%;
             left: 16%;
@@ -263,8 +277,8 @@ body{
             top: 90%;
             left: 10%;
             width: 80%;
-            height: 40px;
+            height: 30px;
             margin-top: 60px;
-            font-size: 15px;
+            font-size: 12px;
         }
     }
